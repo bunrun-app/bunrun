@@ -2,20 +2,36 @@
 
 ## Quick Start
 
-### 1. Install Project
+1. **Install Project**
 
-```console
-$ git clone https://github.com/bunrun-app/bunrun
-```
+   ```console
+   $ git clone https://github.com/bunrun-app/bunrun
+   ```
 
-### 2. Open in Xcode
+1. **Firebase Configuration File**
 
-```console
-$ cd bunrun
-$ open bunrun.xcodeproj
-```
+   Make sure the `GoogleService-Info.plist` file is in the target directory, as follows:
 
-### 3. Build & Run
+   ```sh
+    bunrun/ # repo root
+    ├─bunrun.xcodeproj/
+    ├─bunrun/
+    │ │ ... # other files
+    │ └─GoogleService-Info.plist
+    └─README.md
+   ```
 
-Select a target device in Xcode, and click the "Run" button or <kbd>Cmd</kbd> + <kbd>R</kbd> to build and run the app.
+   > You can get the configuration file from the [Firebase Console](https://console.firebase.google.com/) under "Project Settings" > "General" > "Your Apps" > "SDK Setup and configuration".
+   >
+   > Do not share this file! Make sure to keep it in your local project directory **only**, and do not stage it when committing.
 
+1. **Open in Xcode**
+
+   ```console
+   $ cd bunrun
+   $ open bunrun.xcodeproj
+   ```
+
+1. **Build and Run**
+
+   In Xcode, select a target device then click the "Run" button (or <kbd>Cmd</kbd> + <kbd>R</kbd>) to build and run the app.
