@@ -10,7 +10,7 @@
 		5200718F2D4EAD4D00E6B428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200718E2D4EAD4D00E6B428 /* ContentView.swift */; };
 		520071972D4EBAE000E6B428 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520071962D4EBAE000E6B428 /* OrderViewModel.swift */; };
 		520071992D4EBD4C00E6B428 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520071982D4EBD4C00E6B428 /* Order.swift */; };
-		52D780132D4E93290063E22A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52D780122D4E93290063E22A /* GoogleService-Info.plist */; };
+		526FE5822D52A05A000DD260 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526FE5812D52A05A000DD260 /* GoogleService-Info.plist */; };
 		52D780162D4E989B0063E22A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 52D780152D4E989B0063E22A /* FirebaseAnalyticsOnDeviceConversion */; };
 		52D780182D4E989B0063E22A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 52D780172D4E989B0063E22A /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		52D7801A2D4E989B0063E22A /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 52D780192D4E989B0063E22A /* FirebaseAppCheck */; };
@@ -34,6 +34,9 @@
 		52D7803E2D4E989B0063E22A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 52D7803D2D4E989B0063E22A /* FirebaseStorage */; };
 		52D780402D4E989B0063E22A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 52D7803F2D4E989B0063E22A /* FirebaseStorageCombine-Community */; };
 		52D780422D4E989B0063E22A /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 52D780412D4E989B0063E22A /* FirebaseVertexAI */; };
+		52EE1D0B2D55B43600E83FF6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE1D0A2D55B43600E83FF6 /* User.swift */; };
+		52EE1D0D2D55B54A00E83FF6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE1D0C2D55B54A00E83FF6 /* AuthView.swift */; };
+		52EE1D0F2D55B56B00E83FF6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE1D0E2D55B56B00E83FF6 /* AuthViewModel.swift */; };
 		52F1600F2D4EEDCE00EA10FD /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1600E2D4EEDCE00EA10FD /* OrderView.swift */; };
 		52F5506B2D4BEE3300F99CF2 /* bunrunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5506A2D4BEE3300F99CF2 /* bunrunApp.swift */; };
 		52F5506F2D4BEE3400F99CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F5506E2D4BEE3400F99CF2 /* Assets.xcassets */; };
@@ -44,7 +47,11 @@
 		5200718E2D4EAD4D00E6B428 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		520071962D4EBAE000E6B428 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		520071982D4EBD4C00E6B428 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		52D780122D4E93290063E22A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52229AAC2D505CA800B7E902 /* bunrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bunrun.entitlements; sourceTree = "<group>"; };
+		526FE5812D52A05A000DD260 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52EE1D0A2D55B43600E83FF6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52EE1D0C2D55B54A00E83FF6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		52EE1D0E2D55B56B00E83FF6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		52F1600E2D4EEDCE00EA10FD /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		52F550672D4BEE3300F99CF2 /* bunrun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bunrun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F5506A2D4BEE3300F99CF2 /* bunrunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bunrunApp.swift; sourceTree = "<group>"; };
@@ -90,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				520071982D4EBD4C00E6B428 /* Order.swift */,
+				52EE1D0A2D55B43600E83FF6 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				52F1600E2D4EEDCE00EA10FD /* OrderView.swift */,
+				52EE1D0C2D55B54A00E83FF6 /* AuthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				520071962D4EBAE000E6B428 /* OrderViewModel.swift */,
+				52EE1D0E2D55B56B00E83FF6 /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -129,13 +139,14 @@
 		52F550692D4BEE3300F99CF2 /* bunrun */ = {
 			isa = PBXGroup;
 			children = (
+				526FE5812D52A05A000DD260 /* GoogleService-Info.plist */,
+				52229AAC2D505CA800B7E902 /* bunrun.entitlements */,
 				52F5506A2D4BEE3300F99CF2 /* bunrunApp.swift */,
 				5200718E2D4EAD4D00E6B428 /* ContentView.swift */,
 				5200718D2D4EA95C00E6B428 /* Models */,
 				520071902D4EAD9400E6B428 /* Views */,
 				520071932D4EBA0500E6B428 /* ViewModels */,
 				52F5506E2D4BEE3400F99CF2 /* Assets.xcassets */,
-				52D780122D4E93290063E22A /* GoogleService-Info.plist */,
 				52F550702D4BEE3400F99CF2 /* Preview Content */,
 			);
 			path = bunrun;
@@ -237,7 +248,7 @@
 			files = (
 				52F550722D4BEE3400F99CF2 /* Preview Assets.xcassets in Resources */,
 				52F5506F2D4BEE3400F99CF2 /* Assets.xcassets in Resources */,
-				52D780132D4E93290063E22A /* GoogleService-Info.plist in Resources */,
+				526FE5822D52A05A000DD260 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EE1D0D2D55B54A00E83FF6 /* AuthView.swift in Sources */,
 				5200718F2D4EAD4D00E6B428 /* ContentView.swift in Sources */,
 				520071992D4EBD4C00E6B428 /* Order.swift in Sources */,
+				52EE1D0B2D55B43600E83FF6 /* User.swift in Sources */,
+				52EE1D0F2D55B56B00E83FF6 /* AuthViewModel.swift in Sources */,
 				52F5506B2D4BEE3300F99CF2 /* bunrunApp.swift in Sources */,
 				520071972D4EBAE000E6B428 /* OrderViewModel.swift in Sources */,
 				52F1600F2D4EEDCE00EA10FD /* OrderView.swift in Sources */,
@@ -383,11 +397,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bunrun/bunrun.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bunrun/Preview Content\"";
+				DEVELOPMENT_TEAM = NM7JPSM8L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bunrun/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,11 +428,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bunrun/bunrun.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bunrun/Preview Content\"";
+				DEVELOPMENT_TEAM = NM7JPSM8L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bunrun/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

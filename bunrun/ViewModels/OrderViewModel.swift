@@ -9,8 +9,6 @@ import FirebaseFirestore
 
 @Observable
 class OrderViewModel {
-    var order: Order?
-
     init() {}
 
     private let db = Firestore.firestore()
@@ -22,7 +20,7 @@ class OrderViewModel {
             do {
                 _ = try db.collection("orders").addDocument(from: order)
             } catch {
-                print("Error adding task: \(error.localizedDescription)")
+                print("Error adding order: \(error.localizedDescription)")
             }
         }
     }

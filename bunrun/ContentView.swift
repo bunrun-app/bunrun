@@ -6,20 +6,26 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
-    var body: some View {
-        VStack(spacing: 40) {
-            Text("bunrun")
-                .fontWeight(.bold)
-                .font(.largeTitle)
+    @EnvironmentObject var session: Session
 
-            OrderView()
+    var body: some View {
+        VStack {
+            if session.status != .authenticated {
+                AuthView()
+            } else {
+                OrderView()
+            }
         }
-        .padding()
+        .onAppear {
+            session.validate()
+        }
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(Session())
 }
